@@ -1,0 +1,50 @@
+div {
+    text-align: center;
+}
+
+body {
+    margin: -10 -10 -10 -10;
+}
+
+#container {
+    width: 1000px;
+    margin: 0px auto;
+    
+}
+
+#left-col {
+    width: 700px; 
+    float: left;
+    background-color: pink;
+    text-align: left; 
+    padding: 10 10 10 10;
+}
+
+#right-col {
+    width: 200px; 
+    float: left;
+    background-color: papayawhip;
+    text-align: left;
+    padding: 10 10 10 10;
+}
+
+.banner-image {
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+@media screen and (max-width:1000px){
+    #container {
+        width: 100%;
+    }
+    #left-col {
+        width: 75%;
+    }
+    }
+    #right-col {
+        width: 25%;
+    }
+    img {
+        width: 100%
+    }
+}
