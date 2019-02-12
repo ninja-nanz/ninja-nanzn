@@ -12,9 +12,26 @@ div {
     text-align: center;
 }
 
-span {
-    width: 300px;
+
+.blog-header-pink {
+    background-color: #f2d5eb;
 }
+
+.section {
+    padding: 5 5 5 5;
+
+}
+
+.logo-1 {
+    width: 100px;
+    border-color: #fff;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-top: 30px
+    ;
+  }
 
 /* heading styles */
 
@@ -51,6 +68,7 @@ p {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 18pt;
     color: rgb(78, 78, 78);
+    line-height: 24pt;
 }
 
 /* blog box styles */
@@ -78,12 +96,13 @@ p {
     
 }
 
-/*
+
 #container {
     width: 1000px;
     margin: 0px auto;
+    text-align: left;
     
-}*/
+}
 
 
 #left-col {
@@ -128,6 +147,7 @@ p {
     img {
         width: 100%
     }
+   
  
 }
 
@@ -136,4 +156,7 @@ p {
     text-align: center;
   }
 }
+
+
+
 
