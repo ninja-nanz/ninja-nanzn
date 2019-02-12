@@ -3,7 +3,12 @@ div {
 }
 
 body {
-    margin: -10 -10 -10 -10;
+    margin: -10 0 -10 0;
+}
+
+p {
+    font-family: 'Rokkitt', serif;
+    font-size: 14pt;
 }
 
 #container {
@@ -12,21 +17,26 @@ body {
     
 }
 
+h1 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 26pt;
+}
+
 #left-col {
-    width: 700px; 
-    float: left;
+    width: 800px; 
+    margin: 0px auto;
     background-color: pink;
     text-align: left; 
     padding: 10 10 10 10;
 }
 
-#right-col {
-    width: 200px; 
+/* #right-col {
+    width: 100px; 
     float: left;
     background-color: papayawhip;
     text-align: left;
-    padding: 10 10 10 10;
-}
+    padding: 10 50 10 10;
+} */
 
 .banner-image {
     margin: 0 0 0 0;
