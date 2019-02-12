@@ -1,26 +1,90 @@
-div {
-    text-align: center;
-}
-
 body {
     margin: -10 0 -10 0;
 }
 
-p {
-    font-family: 'Rokkitt', serif;
-    font-size: 14pt;
+a { 
+    color: inherit;
+    text-decoration: none;
+} 
+
+
+div {
+    text-align: center;
 }
 
-#container {
-    width: 1000px;
+span {
+    width: 300px;
+}
+
+/* heading styles */
+
+h1 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 36pt;
+    line-height: 70%;
+    color: rgb(87, 87, 87);
+}
+
+h2 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 18pt;
+    line-height: 20%;
+    color: rgb(85, 85, 85);
+}
+
+h3 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 12pt;
+    color: gray;
+    line-height: 5%;
+    color:rgb(146, 146, 146);
+}
+
+h5 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 10pt;
+    color: gray;
+    text-align: center;
+}
+
+p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 18pt;
+    color: rgb(78, 78, 78);
+}
+
+/* blog box styles */
+
+.blog-box-pink {
+    background-color: #f2d5eb;
+    padding: 11 30 21 30;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+.blog-box-blue {
+    background-color: #cbeaff;
+    padding: 11 30 21 30;
+    border-radius: 10px;
+    text-align: left;
+
+
+}
+
+#box {
+    width: 600px;
     margin: 0px auto;
     
 }
 
-h1 {
-    font-family: 'Palanquin Dark', sans-serif;
-    font-size: 26pt;
-}
+/*
+#container {
+    width: 1000px;
+    margin: 0px auto;
+    
+}*/
+
 
 #left-col {
     width: 800px; 
@@ -41,11 +105,18 @@ h1 {
 .banner-image {
     margin: 0 0 0 0;
     width: 100%;
+
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:724px){
     #container {
         width: 100%;
+    }
+
+    #box {
+        width: 80%;
+    }
+   
     }
     #left-col {
         width: 75%;
@@ -57,4 +128,12 @@ h1 {
     img {
         width: 100%
     }
+ 
 }
+
+.footer {
+    position: absolute;
+    text-align: center;
+  }
+}
+
