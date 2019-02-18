@@ -22,6 +22,18 @@ div {
 
 }
 
+.code-block {
+    background-color: black;
+    color: greenyellow;
+    font: Courier;
+    text-align: left;
+    padding: 15;
+    margin: 20 0 20 0;
+    border-radius: 5px;
+
+
+}
+
 .logo-1 {
     width: 100px;
     border-color: #fff;
@@ -32,6 +44,14 @@ div {
     margin-top: 30px
     ;
   }
+
+.footer {
+    position: fixed;
+    text-align: center;
+  }
+}
+
+
 
 /* heading styles */
 
@@ -45,16 +65,17 @@ h1 {
 h2 {
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 18pt;
-    line-height: 20%;
+    line-height: 33%;
     color: rgb(85, 85, 85);
 }
 
 h3 {
     font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 12pt;
-    color: gray;
-    line-height: 5%;
+    font-size: 11pt;
+    color: rgb(106, 106, 106);
+    line-height: 10%;
     color:rgb(146, 146, 146);
+    letter-spacing: 2px;
 }
 
 h5 {
@@ -149,12 +170,6 @@ p {
     }
    
  
-}
-
-.footer {
-    position: absolute;
-    text-align: center;
-  }
 }
 
 

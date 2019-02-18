@@ -18,7 +18,7 @@
         <br>
         <br>
         <p>TECHNICAL • SPRINT 2</p>
-        <h1>Blog title</h1>
+        <h1>Position: Static, Relative, Absolute, Fixed</h1>
        <br>
        <br>
        <br>
@@ -26,12 +26,65 @@
 
      <div id="container">
 <br>
-     <p>Lorem ipsum dolor sit amet, qui lectus, ut elementum massa malesuada lorem eros. Nonummy luctus ac mi, sed tempor interdum consectetuer posuere, nibh lorem quis. Diam morbi volutpat sed, varius ut imperdiet gravida, ligula quis dolor mi ante pellentesque viverra, quis condimentum rhoncus tempus mollis phasellus integer. Enim rerum lectus vel nulla et pellentesque, ac quam, mi felis condimentum platea turpis in, laoreet in ligula proin semper id non. Lobortis ullamcorper velit nascetur pretium, cum pellentesque amet etiam ipsum placerat feugiat. Consequat ante quis, interdum varius fusce augue felis pede. Pharetra cursus, cras magna sit est vestibulum, wisi wisi sed sed magna dignissim dolor, magna vel mi, faucibus et amet sed risus enim. Ut dictum, urna lorem semper ut, nec maecenas adipiscing massa cras consequat. Sed curabitur metus sollicitudin, nascetur ligula praesent et curabitur integer, luctus molestie facilisis, nulla leo sapien vitae. Ligula in neque mauris leo quisque dignissim, vestibulum ut tellus curabitur, ante ut pharetra senectus, rhoncus ligula ut adipisci omnis non. Amet leo, lacus nam in per et leo quam, vel a at, enim laoreet pulvinar elementum velit sed.
+<p>"Position" is a CSS property that helps you place an element where you want it to be on a webpage. The different types of position css attributes dicussed below allow for vertical and/or horizontal shifting (top, right, bottom, left) of elements such as divs. 
 
-      At vel, posuere integer molestie duis mi, aliquam leo donec augue magnis pellentesque. Nec consequat neque dui praesent aenean, eu adipiscing odio sed ornare amet wisi, nec urna amet vel tincidunt semper. Commodo facilisi nibh, sapien semper neque morbi urna nunc porttitor, ante quisque, magna sed amet et ante odio. Vel a dictumst amet curae, lorem velit velit in dapibus lorem vulputate, sem luctus et velit auctor nibh, duis in volutpat sodales, sodales pede sed. Neque erat sed massa est, neque erat ac tincidunt interdum rhoncus, ligula ipsum sit turpis, amet tempus. Consectetuer fusce vitae amet irure, ultricies mauris fusce, ipsum leo mattis laoreet, non nonummy ligula parturient vitae dictum, justo in ac. Elit corrupti lorem, nibh nec class orci eu. Congue faucibus nulla adipiscing a velit.
-        
-        </p>
-     </div>
+This is what it looks like in your css file: </p>
+<div class="code-block"> position: relative; </div>
+
+<p>Here are the variations in the different types positioning:</p>
+<br>
+<img src="../images/position-css.jpg">
+<br>
+<br>
+<h2> 1. Static </h2>
+<p>This is the default positioning of elements following the "natural flow" rules of the HTML document.<sup> 1 </sup>
+<p> <div class="code-block"> position: static; </div>  </p>
+<br>
+
+<h2> 2. Relative </h2>
+<p>Relative positioning allows you to move an element in relation to it's original "static" position. For example, the css below will move it 20px above, away from where it was initially. </p>
+<p> <div class="code-block"> position: relative; top: 20px </div>  </p>
+<p>"Relative" positions the element in the normal flow of the document.The other elements dont take up the position of the positioned element ie they behave as if the box has not moved.</p><br>
+<br>
+<h2> 3. Absolute </h2>
+<p>Similar to relative, "absolute" positions the element relative to the html document OR the nearested parent element, such as a container/div. If the parent div is absolute as well, then the element will be relative to that. For example, the css below will move the element 20px below the top of the HTML page. </p>
+<p> <div class="code-block"> position: absolute; bottom: 20px </div>  
+<p>"Absolute" takes the element out of the html document flow and positions it relative to entire document, so other elements behave as if the the positioned element never existed. 
+</p>
+<br>
+<h2> 4. Fixed </h2>
+<p>"Fixed" position takes the element out of the flow of the document entirely. This is relative to the viewport (edges) of the browser. For example, the css below will position the element 20px left of the edges of your browser. </p>
+<p> <div class="code-block"> position: fixed; left: 20px </div>  </p>
+<p>The other elements of the page move to fill the element that is fixed, similar to "absolute" position. It is often used for sticky headers and footers and nav bars. 
+</p>
+<br>
+<strong> Note: </strong> <span class="code-block"> position: inherit </span> &nbsp adopts the positioning of it's parent element. 
+<br>
+<br>
+<br>
+<hr>
+<br>
+<h3><strong>Further learning for position and layout of elements</strong> </h3>
+<ul>
+<li> z-index and stacking contexts </li>
+<li> Block formating (css properties: float, overflow, display, fieldset) </li>
+<li> CSS grids and Flexbox </li>
+
+
+</ul>
+<br>
+<h3> <strong>References:</strong></h3>
+<ol>
+    <li> Eoin Kelly's Broken Models - Revising CSS layout: https://speakerdeck.com/eoinkelly/broken-models-fundamentals-of-css-layout </li>
+    <li> Learn CSS Layout: http://learnlayout.com </li>
+    <li> Mike dane's video: https://www.youtube.com/watch?v=_0Z1oNQ93Wo </li>
+    <li> whatsdev's video: https://www.youtube.com/watch?v=TiY5FuwgocI </li>
+    <li>Excellent blog about how CSS works: http://www.aimeemarieknight.com/It's-Not-Dark-Magic-Pulling-Back-the-Curtains-From-Your-Stylesheets/</li>
+</ol>
+
+
+
+</div>
 <br>
 
   </body>
