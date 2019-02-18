@@ -21,6 +21,18 @@ div {
     background-color: #cbeaff;
 }
 
+.blog-header-green {
+    background-color:#aee0c5;
+}
+
+.blog-header-purple {
+    background-color: #dfd2f9;
+}
+
+.blog-header-yellow {
+    background-color: #f2e6aa;
+}
+
 .section {
     padding: 5 5 5 5;
 
@@ -76,7 +88,7 @@ h3 {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 11pt;
     color: rgb(106, 106, 106);
-    line-height: 10%;
+    line-height: 150%;
     color:rgb(146, 146, 146);
     letter-spacing: 2px;
 }
@@ -116,6 +128,33 @@ p {
 
 .blog-box-blue {
     background-color: #cbeaff;
+    padding: 11 30 21 30;
+    border-radius: 10px;
+    text-align: left;
+    
+
+}
+
+.blog-box-green {
+    background-color: #aee0c5;
+    padding: 11 30 21 30;
+    border-radius: 10px;
+    text-align: left;
+
+
+}
+
+.blog-box-purple {
+    background-color: #dfd2f9;
+    padding: 11 30 21 30;
+    border-radius: 10px;
+    text-align: left;
+
+
+}
+
+.blog-box-yellow {
+    background-color: #f2e6aa;
     padding: 11 30 21 30;
     border-radius: 10px;
     text-align: left;
