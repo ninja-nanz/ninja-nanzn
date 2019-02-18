@@ -80,7 +80,7 @@ h1 {
 h2 {
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 18pt;
-    line-height: 87%;
+    line-height: 100%;
     color: rgb(68, 68, 68);
 }
 
@@ -207,7 +207,7 @@ p {
 
 @media screen and (max-width:724px){
     #container {
-        width: 100%;
+        width: 90%;
     }
 
     #box {
@@ -216,11 +216,11 @@ p {
    
     
     #left-col {
-        width: 100%;
+        width: 90%;
     }
     }
     #right-col {
-        width: 50%;
+        width: 90%;
     }
     img {
         width: 100%
