@@ -17,13 +17,17 @@ div {
     background-color: #f2d5eb;
 }
 
+.blog-header-blue {
+    background-color: #cbeaff;
+}
+
 .section {
     padding: 5 5 5 5;
 
 }
 
 .code-block {
-    background-color: black;
+    background-color: rgb(29, 29, 29);
     color: greenyellow;
     font: Courier;
     text-align: left;
@@ -46,7 +50,7 @@ div {
   }
 
 .footer {
-    position: fixed;
+    position: fixed; bottom: 0%;
     text-align: center;
   }
 }
@@ -58,15 +62,14 @@ div {
 h1 {
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 36pt;
-    line-height: 70%;
-    color: rgb(87, 87, 87);
+    color: rgb(68, 68, 68);
 }
 
 h2 {
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 18pt;
-    line-height: 33%;
-    color: rgb(85, 85, 85);
+    line-height: 87%;
+    color: rgb(68, 68, 68);
 }
 
 h3 {
@@ -78,11 +81,20 @@ h3 {
     letter-spacing: 2px;
 }
 
-h5 {
+ol {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 10pt;
-    color: gray;
-    text-align: center;
+    color: rgb(88, 88, 88);
+    text-align: left;
+    line-height: 175%;
+}
+
+ul {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 10pt;
+    color: rgb(88, 88, 88);
+    text-align: left;
+    line-height: 175%;
 }
 
 p {
@@ -122,25 +134,31 @@ p {
     width: 1000px;
     margin: 0px auto;
     text-align: left;
+    position: relative; top: 20px;
     
 }
 
 
+
+
 #left-col {
-    width: 800px; 
-    margin: 0px auto;
-    background-color: pink;
+    width: 410px; 
+    background-color: hsl(0, 0%, 93%);
     text-align: left; 
-    padding: 10 10 10 10;
+    padding: 20;
+    border-radius: 5px;
+    margin: 0 5 55 0;
+    float: left;
 }
 
-/* #right-col {
-    width: 100px; 
-    float: left;
-    background-color: papayawhip;
+#right-col {
+    background-color: #ededed;
     text-align: left;
-    padding: 10 50 10 10;
-} */
+    padding: 20;
+    border-radius: 5px;
+    margin: 0 5 55 0;
+    float: left;
+} 
 
 .banner-image {
     margin: 0 0 0 0;
@@ -157,13 +175,13 @@ p {
         width: 80%;
     }
    
-    }
+    
     #left-col {
-        width: 75%;
+        width: 100%;
     }
     }
     #right-col {
-        width: 25%;
+        width: 50%;
     }
     img {
         width: 100%
